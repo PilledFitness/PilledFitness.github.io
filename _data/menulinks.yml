@@ -1,0 +1,111 @@
+links:
+- title: Home
+  num: 1
+  url: /home/
+- title: About
+  num: 2
+  url: /about/
+- title: Trainers
+  num: 3
+  url: /trainers/
+- title: Classes
+  num: 4
+  url: /classes/
+- title: Schedules
+  num: 5
+  url: /schedules/
+- title: News
+  num: 6
+  url: /blog/
+- title: Contact
+  num: 7
+  url: /contact/
+links2:
+- title: Home Page 01
+  num: 1
+  url: /home/
+- title: Home Page 02
+  num: 2
+  url: /home/
+- title: Home Page 03
+  num: 3
+  url: /home/
+- title: Dashboard
+  num: 3
+  url: /dashboard/
+links3:
+- title: Home Style 01
+  num: 1
+  url: /home/
+- title: Home Style 02
+  num: 2
+  url: /home/
+- title: Home Style 03
+  num: 3
+  url: /home/
+links4:
+- title: About Us
+  num: 1
+  url: /about1/
+- title: Faq
+  num: 2
+  url: /faq/
+- title: Price
+  num: 3
+  url: /price/
+- title: Team
+  num: 3
+  url: /team/
+- title: Time Table
+  num: 3
+  url: /time-table/
+- title: Testimonial
+  num: 3
+  url: /testimonial/
+- title: Comming Soon
+  num: 3
+  url: /comming-soon/
+links5:
+- title: Classes
+  num: 3
+  url: /classes1/
+- title: Classes Detail
+  num: 3
+  url: /classesdetail/
+links6:
+- title: Portfolio
+  num: 3
+  url: /portfolio/
+- title: Portfolio Detail
+  num: 3
+  url: /portfoliodetail/
+links7:
+- title: Our Products
+  num: 3
+  url: /shop/
+- title: Product Single
+  num: 3
+  url: /shopsingle/
+- title: Shopping Cart
+  num: 3
+  url: /shoppingcart/
+- title: Checkout
+  num: 3
+  url: /checkout/
+- title: Account
+  num: 3
+  url: /account/
+links8:
+- title: Our Blog
+  num: 3
+  url: /blog1/
+- title: Blog Single
+  num: 3
+  url: /blogsingle/
+- title: Not Found
+  num: 3
+  url: /notfound/
+links9:
+- title: Contact us
+  num: 3
+  url: /contact1/

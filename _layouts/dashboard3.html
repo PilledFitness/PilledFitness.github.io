@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head3.html %}
+<body>
+
+	{% include preloader.html %}
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+		{% include navheader.html %}
+		{% include chatbox.html %}
+		
+		{% include header1.html %}
+		{% include sidebar.html %}
+		
+		<!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <!-- row -->
+		{{ content }}
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+		{% include footer4.html %}
+
+		<!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="/global/global.min.js"></script>
+	<script src="/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="/chart.js/Chart.bundle.min.js"></script>
+	<script src="/bootstrap-datetimepicker/js/moment.js"></script>
+	<script src="/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="/js/custom.min.js"></script>
+	<script src="/js/deznav-init.js"></script>
+	<script>
+		$(function () {
+			$('#datetimepicker1').datetimepicker({
+				inline: true,
+			});
+		});
+	</script>
+</body>
+</html>

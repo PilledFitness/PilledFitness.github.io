@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head3.html %}
+<body>
+
+	{% include preloader.html %}
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+		{% include navheader.html %}
+		{% include chatbox.html %}
+		{% include header1.html %}
+
+		{% include sidebar.html %}
+		
+		<!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <!-- row -->
+			{{ content }}
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+		{% include footer4.html %}
+		<!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="/global/global.min.js"></script>
+	<script src="/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="/chart.js/Chart.bundle.min.js"></script>
+    <script src="/js/custom.min.js"></script>
+	<script src="/js/deznav-init.js"></script>
+		
+	
+	<!-- Chart piety plugin files -->
+    <script src="/peity/jquery.peity.min.js"></script>
+	
+	<!-- Apex Chart -->
+	<script src="/apexchart/apexchart.js"></script>
+	
+	<!-- Dashboard 1 -->
+	<script src="/js/dashboard/workout-statistic.js"></script>
+	
+</body>
+</html>

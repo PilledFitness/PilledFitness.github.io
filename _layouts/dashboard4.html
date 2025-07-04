@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head3.html %}
+<body>
+
+	{% include preloader.html %}
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+		{% include navheader.html %}
+		
+		{% include chatbox.html %}
+		
+		{% include header1.html %}
+
+		{% include sidebar.html %}
+		
+		<!--**********************************
+            Content body start
+        ***********************************-->
+        {{ content }}
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+		{% include footer4.html %}
+
+		<!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="/global/global.min.js"></script>
+	<script src="/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script src="/chart.js/Chart.bundle.min.js"></script>
+    <script src="/js/custom.min.js"></script>
+	<script src="/js/deznav-init.js"></script>
+	<!-- Apex Chart -->
+	<script src="/apexchart/apexchart.js"></script>
+	
+	<script src="/counter/counterup.min.js"></script>
+	<script src="/counter/waypoints-min.js"></script>
+	
+	<!-- Dashboard 1 -->
+	<script src="/js/dashboard/distance-map.js"></script>
+	
+	<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });
+    });
+  </script>
+</body>
+</html>
